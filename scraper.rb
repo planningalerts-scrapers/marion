@@ -2,8 +2,7 @@ require 'scraperwiki'
 require 'rubygems'
 require 'mechanize'
 
-# We should use a thisweek query to reduce load on their server but it's broken as at 2011-06-26
-starting_url = 'http://ecouncil.marion.sa.gov.au/datrackingui/modules/applicationmaster/default.aspx?page=found&1=thismonth&4a=7&6=F'
+starting_url = 'http://ecouncil.marion.sa.gov.au/datrackingui/modules/applicationmaster/default.aspx?page=found&1=thisweek&4a=7&6=F'
 comment_url = 'mailto:council@marion.sa.gov.au?subject='
 
 def clean_whitespace(a)
