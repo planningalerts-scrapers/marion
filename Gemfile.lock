@@ -7,6 +7,14 @@ GIT
       httpclient
       sqlite_magic
 
+GIT
+  remote: https://github.com/planningalerts-scrapers/masterview_scraper.git
+  revision: 31c0044be199267d8cdc439cdbe4ac6939beb555
+  specs:
+    masterview_scraper (0.1.0)
+      mechanize
+      scraperwiki
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,7 +68,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mechanize
+  masterview_scraper!
   scraperwiki!
   timecop
   vcr
